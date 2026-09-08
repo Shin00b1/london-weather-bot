@@ -140,7 +140,7 @@ Everything above is a warm-season edge. Winter is genuinely different:
 | Max-side fade @ 0.99 | CLOSED | negative EV |
 | Private-station leads | CLOSED | sun bias, not signal |
 | Min-side market making | CLOSED | adverse selection |
-| Field making (max book) | PAPER (decide at 30 days) | ±0.02 quotes, spread ~17c |
+| Field making (max book) | PAPER (decide at 30 days) | ±0.02 quotes; **first days net negative (−96, −136 dollars)** |
 | Dawn rewards maker | PAPER | reward units unverified |
 | Winter-MIN conditioner | CANDIDATE | 77% (n = 48) |
 | Winter flat-morning | PAPER | n = 22 |
