@@ -1,0 +1,17 @@
+[Unit]
+Description=London field maker (paper MM, highest market) - 24/7
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=london
+WorkingDirectory=/opt/london
+# the bot self-exits at 20Z window close; wrapper re-enters every 5 min
+ExecStart=/bin/sh -c 'while true; do /opt/london/.venv/bin/python3 /opt/london/field_maker.py --run; sleep 300; done'
+Restart=on-failure
+RestartSec=60
+StandardOutput=append:/opt/london/london/field_maker.log
+StandardError=append:/opt/london/london/field_maker.log
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,47 @@
+{
+  "rebuild": "complete",
+  "source": "Open-Meteo Single Runs API, model=ecmwf_ifs (ECMWF IFS HRES 9km)",
+  "reason_for_model_choice": "ecmwf_ifs single-runs archived back to 2024-03-14; ukmo_seamless/gfs only retain runs from ~2026-04",
+  "coverage": "577/577 event-days (2025-01-22 .. 2026-08-25), 1154 event rows",
+  "gaps_filled_from_staler_but_honest_runs": {
+    "2025-08-06": "run 2025-08-04 (D-2)",
+    "2025-08-07": "run 2025-08-04 (D-3)",
+    "2025-08-08": "run 2025-08-04 (D-4)",
+    "2025-08-09": "run 2025-08-04 (D-5)",
+    "2025-08-10": "run 2025-08-04 (D-6)",
+    "2026-06-24": "run 2026-06-22 (D-2)"
+  },
+  "full_backtest_results": {
+    "archive_lookahead": {
+      "n": 258,
+      "win_rate": 0.601,
+      "pnl_per_dollar": 1.56
+    },
+    "genuine_d1_ecmwf": {
+      "n": 281,
+      "win_rate": 0.306,
+      "pnl_per_dollar": 0.15,
+      "2025": {
+        "n": 16,
+        "win_rate": 0.25,
+        "pnl": -0.16
+      },
+      "2026": {
+        "n": 265,
+        "win_rate": 0.309,
+        "pnl": 0.17
+      }
+    },
+    "market_favorite": {
+      "n": 530,
+      "win_rate": 0.334,
+      "pnl_per_dollar": -0.09
+    },
+    "genuine_d1_bootstrap_95ci": [
+      -0.08,
+      0.39
+    ],
+    "p_negative": 0.105
+  },
+  "conclusion": "With genuinely-knowable D-1 forecasts the strategy has no significant edge: win rate 30.6% (below market favorite 33.4%), pnl +0.15 per dollar with CI crossing zero and 10.5% chance the true edge is negative."
+}

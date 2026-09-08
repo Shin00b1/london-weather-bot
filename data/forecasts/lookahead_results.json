@@ -1,0 +1,2018 @@
+[
+ {
+  "date": "2026-05-01",
+  "direction": "highest",
+  "metar": 24.0,
+  "d1": 24.3,
+  "archive": 24.5,
+  "d1_err": 0.3,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-05-01",
+  "direction": "lowest",
+  "metar": 10.0,
+  "d1": 10.8,
+  "archive": 10.1,
+  "d1_err": 0.8,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-02",
+  "direction": "highest",
+  "metar": 23.0,
+  "d1": 21.7,
+  "archive": 23.3,
+  "d1_err": 1.3,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-05-02",
+  "direction": "lowest",
+  "metar": 11.0,
+  "d1": 11.5,
+  "archive": 11.6,
+  "d1_err": 0.5,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-05-03",
+  "direction": "highest",
+  "metar": 20.0,
+  "d1": 18.9,
+  "archive": 19.7,
+  "d1_err": 1.1,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-05-03",
+  "direction": "lowest",
+  "metar": 14.0,
+  "d1": 11.7,
+  "archive": 13.9,
+  "d1_err": 2.3,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-04",
+  "direction": "highest",
+  "metar": 15.0,
+  "d1": 17.7,
+  "archive": 16.3,
+  "d1_err": 2.7,
+  "archive_err": 1.3
+ },
+ {
+  "date": "2026-05-04",
+  "direction": "lowest",
+  "metar": 12.0,
+  "d1": 10.9,
+  "archive": 12.6,
+  "d1_err": 1.1,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-05-05",
+  "direction": "highest",
+  "metar": 16.0,
+  "d1": 18.0,
+  "archive": 16.9,
+  "d1_err": 2.0,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-05-05",
+  "direction": "lowest",
+  "metar": 11.0,
+  "d1": 8.6,
+  "archive": 11.0,
+  "d1_err": 2.4,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-05-06",
+  "direction": "highest",
+  "metar": 13.0,
+  "d1": 13.1,
+  "archive": 13.2,
+  "d1_err": 0.1,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-06",
+  "direction": "lowest",
+  "metar": 8.0,
+  "d1": 8.1,
+  "archive": 8.3,
+  "d1_err": 0.1,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-05-07",
+  "direction": "highest",
+  "metar": 14.0,
+  "d1": 13.7,
+  "archive": 14.8,
+  "d1_err": 0.3,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-05-07",
+  "direction": "lowest",
+  "metar": 9.0,
+  "d1": 8.5,
+  "archive": 9.2,
+  "d1_err": 0.5,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-08",
+  "direction": "highest",
+  "metar": 18.0,
+  "d1": 18.0,
+  "archive": 18.1,
+  "d1_err": 0.0,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-08",
+  "direction": "lowest",
+  "metar": 8.0,
+  "d1": 9.6,
+  "archive": 8.4,
+  "d1_err": 1.6,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-05-09",
+  "direction": "highest",
+  "metar": 20.0,
+  "d1": 19.6,
+  "archive": 20.1,
+  "d1_err": 0.4,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-09",
+  "direction": "lowest",
+  "metar": 9.0,
+  "d1": 10.0,
+  "archive": 9.2,
+  "d1_err": 1.0,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-10",
+  "direction": "highest",
+  "metar": 13.0,
+  "d1": 15.0,
+  "archive": 13.2,
+  "d1_err": 2.0,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-10",
+  "direction": "lowest",
+  "metar": 7.0,
+  "d1": 7.6,
+  "archive": 8.5,
+  "d1_err": 0.6,
+  "archive_err": 1.5
+ },
+ {
+  "date": "2026-05-11",
+  "direction": "highest",
+  "metar": 12.0,
+  "d1": 13.2,
+  "archive": 12.1,
+  "d1_err": 1.2,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-11",
+  "direction": "lowest",
+  "metar": 5.0,
+  "d1": 6.5,
+  "archive": 5.2,
+  "d1_err": 1.5,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-12",
+  "direction": "highest",
+  "metar": 17.0,
+  "d1": 16.2,
+  "archive": 16.4,
+  "d1_err": 0.8,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-05-12",
+  "direction": "lowest",
+  "metar": 5.0,
+  "d1": 7.5,
+  "archive": 4.4,
+  "d1_err": 2.5,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-05-13",
+  "direction": "highest",
+  "metar": 13.0,
+  "d1": 13.0,
+  "archive": 12.1,
+  "d1_err": 0.0,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-05-13",
+  "direction": "lowest",
+  "metar": 9.0,
+  "d1": 8.4,
+  "archive": 8.2,
+  "d1_err": 0.6,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-05-14",
+  "direction": "highest",
+  "metar": 12.0,
+  "d1": 12.2,
+  "archive": 11.1,
+  "d1_err": 0.2,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-05-14",
+  "direction": "lowest",
+  "metar": 8.0,
+  "d1": 7.3,
+  "archive": 7.4,
+  "d1_err": 0.7,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-05-15",
+  "direction": "highest",
+  "metar": 14.0,
+  "d1": 12.2,
+  "archive": 14.1,
+  "d1_err": 1.8,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-15",
+  "direction": "lowest",
+  "metar": 7.0,
+  "d1": 7.1,
+  "archive": 6.8,
+  "d1_err": 0.1,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-16",
+  "direction": "highest",
+  "metar": 15.0,
+  "d1": 14.8,
+  "archive": 14.8,
+  "d1_err": 0.2,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-16",
+  "direction": "lowest",
+  "metar": 7.0,
+  "d1": 7.3,
+  "archive": 7.3,
+  "d1_err": 0.3,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-05-17",
+  "direction": "highest",
+  "metar": 18.0,
+  "d1": 15.4,
+  "archive": 16.6,
+  "d1_err": 2.6,
+  "archive_err": 1.4
+ },
+ {
+  "date": "2026-05-17",
+  "direction": "lowest",
+  "metar": 10.0,
+  "d1": 10.6,
+  "archive": 10.1,
+  "d1_err": 0.6,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-18",
+  "direction": "highest",
+  "metar": 16.0,
+  "d1": 14.2,
+  "archive": 14.4,
+  "d1_err": 1.8,
+  "archive_err": 1.6
+ },
+ {
+  "date": "2026-05-18",
+  "direction": "lowest",
+  "metar": 9.0,
+  "d1": 9.2,
+  "archive": 8.9,
+  "d1_err": 0.2,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-19",
+  "direction": "highest",
+  "metar": 18.0,
+  "d1": 17.1,
+  "archive": 17.4,
+  "d1_err": 0.9,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-05-19",
+  "direction": "highest",
+  "metar": 18.0,
+  "d1": 17.1,
+  "archive": 17.4,
+  "d1_err": 0.9,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-05-19",
+  "direction": "lowest",
+  "metar": 11.0,
+  "d1": 11.4,
+  "archive": 11.3,
+  "d1_err": 0.4,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-05-20",
+  "direction": "highest",
+  "metar": 20.0,
+  "d1": 20.5,
+  "archive": 19.6,
+  "d1_err": 0.5,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-05-20",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 13.3,
+  "archive": 12.8,
+  "d1_err": 0.3,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-21",
+  "direction": "highest",
+  "metar": 24.0,
+  "d1": 21.9,
+  "archive": 23.6,
+  "d1_err": 2.1,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-05-21",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 12.6,
+  "archive": 13.0,
+  "d1_err": 0.4,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-05-22",
+  "direction": "highest",
+  "metar": 28.0,
+  "d1": 26.8,
+  "archive": 27.4,
+  "d1_err": 1.2,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-05-22",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 15.3,
+  "archive": 14.8,
+  "d1_err": 0.3,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-23",
+  "direction": "highest",
+  "metar": 30.0,
+  "d1": 27.9,
+  "archive": 29.6,
+  "d1_err": 2.1,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-05-24",
+  "direction": "highest",
+  "metar": 30.0,
+  "d1": 28.6,
+  "archive": 29.7,
+  "d1_err": 1.4,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-05-24",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 16.7,
+  "archive": 15.1,
+  "d1_err": 1.7,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-25",
+  "direction": "highest",
+  "metar": 31.0,
+  "d1": 32.6,
+  "archive": 31.9,
+  "d1_err": 1.6,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-05-25",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 18.6,
+  "archive": 17.3,
+  "d1_err": 1.6,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-05-26",
+  "direction": "highest",
+  "metar": 34.0,
+  "d1": 34.8,
+  "archive": 34.1,
+  "d1_err": 0.8,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-26",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 21.1,
+  "archive": 18.7,
+  "d1_err": 4.1,
+  "archive_err": 1.7
+ },
+ {
+  "date": "2026-05-27",
+  "direction": "highest",
+  "metar": 25.0,
+  "d1": 25.7,
+  "archive": 26.2,
+  "d1_err": 0.7,
+  "archive_err": 1.2
+ },
+ {
+  "date": "2026-05-27",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 14.7,
+  "archive": 16.0,
+  "d1_err": 0.3,
+  "archive_err": 1.0
+ },
+ {
+  "date": "2026-05-28",
+  "direction": "highest",
+  "metar": 31.0,
+  "d1": 30.9,
+  "archive": 31.2,
+  "d1_err": 0.1,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-28",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 14.9,
+  "archive": 15.0,
+  "d1_err": 0.1,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-05-29",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 26.6,
+  "archive": 25.6,
+  "d1_err": 0.6,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-05-29",
+  "direction": "lowest",
+  "metar": 19.0,
+  "d1": 18.1,
+  "archive": 19.2,
+  "d1_err": 0.9,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-05-30",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 26.8,
+  "archive": 27.1,
+  "d1_err": 0.2,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-05-30",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 16.8,
+  "archive": 17.5,
+  "d1_err": 0.2,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-05-31",
+  "direction": "highest",
+  "metar": 24.0,
+  "d1": 22.9,
+  "archive": 23.1,
+  "d1_err": 1.1,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-05-31",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 16.9,
+  "archive": 17.0,
+  "d1_err": 0.1,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-06-01",
+  "direction": "highest",
+  "metar": 23.0,
+  "d1": 21.9,
+  "archive": 23.0,
+  "d1_err": 1.1,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-06-01",
+  "direction": "lowest",
+  "metar": 14.0,
+  "d1": 14.9,
+  "archive": 14.8,
+  "d1_err": 0.9,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-06-02",
+  "direction": "highest",
+  "metar": 19.0,
+  "d1": 20.0,
+  "archive": 19.6,
+  "d1_err": 1.0,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-06-02",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 15.4,
+  "archive": 15.0,
+  "d1_err": 0.4,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-06-03",
+  "direction": "highest",
+  "metar": 19.0,
+  "d1": 18.5,
+  "archive": 18.6,
+  "d1_err": 0.5,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-06-03",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 14.1,
+  "archive": 13.5,
+  "d1_err": 1.1,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-06-04",
+  "direction": "highest",
+  "metar": 19.0,
+  "d1": 18.8,
+  "archive": 18.5,
+  "d1_err": 0.2,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-06-04",
+  "direction": "lowest",
+  "metar": 14.0,
+  "d1": 13.4,
+  "archive": 13.9,
+  "d1_err": 0.6,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-06-05",
+  "direction": "highest",
+  "metar": 19.0,
+  "d1": 17.7,
+  "archive": 18.4,
+  "d1_err": 1.3,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-06-05",
+  "direction": "lowest",
+  "metar": 12.0,
+  "d1": 12.3,
+  "archive": 12.8,
+  "d1_err": 0.3,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-06-06",
+  "direction": "highest",
+  "metar": 17.0,
+  "d1": 16.1,
+  "archive": 16.8,
+  "d1_err": 0.9,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-06-06",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 13.0,
+  "archive": 13.0,
+  "d1_err": 0.0,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-06-07",
+  "direction": "highest",
+  "metar": 19.0,
+  "d1": 21.3,
+  "archive": 19.3,
+  "d1_err": 2.3,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-07",
+  "direction": "lowest",
+  "metar": 11.0,
+  "d1": 11.9,
+  "archive": 11.7,
+  "d1_err": 0.9,
+  "archive_err": 0.7
+ },
+ {
+  "date": "2026-06-08",
+  "direction": "highest",
+  "metar": 16.0,
+  "d1": 18.3,
+  "archive": 15.9,
+  "d1_err": 2.3,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-06-08",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 13.1,
+  "archive": 13.6,
+  "d1_err": 0.1,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-06-09",
+  "direction": "highest",
+  "metar": 19.0,
+  "d1": 18.1,
+  "archive": 18.8,
+  "d1_err": 0.9,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-06-09",
+  "direction": "lowest",
+  "metar": 10.0,
+  "d1": 10.9,
+  "archive": 10.0,
+  "d1_err": 0.9,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-06-10",
+  "direction": "highest",
+  "metar": 17.0,
+  "d1": 16.3,
+  "archive": 16.9,
+  "d1_err": 0.7,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-06-10",
+  "direction": "lowest",
+  "metar": 10.0,
+  "d1": 11.2,
+  "archive": 10.6,
+  "d1_err": 1.2,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-06-11",
+  "direction": "highest",
+  "metar": 17.0,
+  "d1": 17.1,
+  "archive": 16.7,
+  "d1_err": 0.1,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-11",
+  "direction": "lowest",
+  "metar": 10.0,
+  "d1": 10.9,
+  "archive": 10.5,
+  "d1_err": 0.9,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-06-13",
+  "direction": "highest",
+  "metar": 22.0,
+  "d1": 21.7,
+  "archive": 21.7,
+  "d1_err": 0.3,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-13",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 13.5,
+  "archive": 13.4,
+  "d1_err": 0.5,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-06-14",
+  "direction": "highest",
+  "metar": 21.0,
+  "d1": 21.0,
+  "archive": 21.0,
+  "d1_err": 0.0,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-06-14",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 13.5,
+  "archive": 13.2,
+  "d1_err": 0.5,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-06-15",
+  "direction": "highest",
+  "metar": 21.0,
+  "d1": 23.3,
+  "archive": 21.9,
+  "d1_err": 2.3,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-06-15",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 12.8,
+  "archive": 13.3,
+  "d1_err": 0.2,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-16",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 26.2,
+  "archive": 26.5,
+  "d1_err": 0.8,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-06-16",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 16.1,
+  "archive": 15.4,
+  "d1_err": 1.1,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-06-17",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 24.1,
+  "archive": 25.4,
+  "d1_err": 1.9,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-06-17",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 17.3,
+  "archive": 17.7,
+  "d1_err": 0.3,
+  "archive_err": 0.7
+ },
+ {
+  "date": "2026-06-18",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 26.8,
+  "archive": 25.9,
+  "d1_err": 0.8,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-06-18",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 17.5,
+  "archive": 17.6,
+  "d1_err": 0.5,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-06-19",
+  "direction": "highest",
+  "metar": 30.0,
+  "d1": 31.3,
+  "archive": 30.2,
+  "d1_err": 1.3,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-06-19",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 17.1,
+  "archive": 19.1,
+  "d1_err": 0.9,
+  "archive_err": 1.1
+ },
+ {
+  "date": "2026-06-20",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 27.2,
+  "archive": 25.7,
+  "d1_err": 1.2,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-20",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 17.8,
+  "archive": 18.1,
+  "d1_err": 0.2,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-06-21",
+  "direction": "highest",
+  "metar": 28.0,
+  "d1": 30.2,
+  "archive": 28.8,
+  "d1_err": 2.2,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-06-21",
+  "direction": "lowest",
+  "metar": 19.0,
+  "d1": 20.3,
+  "archive": 20.1,
+  "d1_err": 1.3,
+  "archive_err": 1.1
+ },
+ {
+  "date": "2026-06-22",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 28.9,
+  "archive": 26.9,
+  "d1_err": 1.9,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-06-22",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 18.0,
+  "archive": 17.3,
+  "d1_err": 1.0,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-23",
+  "direction": "highest",
+  "metar": 31.0,
+  "d1": 33.4,
+  "archive": 33.1,
+  "d1_err": 2.4,
+  "archive_err": 2.1
+ },
+ {
+  "date": "2026-06-23",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 18.8,
+  "archive": 18.3,
+  "d1_err": 0.8,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-24",
+  "direction": "highest",
+  "metar": 34.0,
+  "d1": 35.9,
+  "archive": 36.0,
+  "d1_err": 1.9,
+  "archive_err": 2.0
+ },
+ {
+  "date": "2026-06-24",
+  "direction": "lowest",
+  "metar": 21.0,
+  "d1": 23.4,
+  "archive": 21.9,
+  "d1_err": 2.4,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-06-25",
+  "direction": "highest",
+  "metar": 29.0,
+  "d1": 30.1,
+  "archive": 29.6,
+  "d1_err": 1.1,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-06-25",
+  "direction": "lowest",
+  "metar": 20.0,
+  "d1": 21.1,
+  "archive": 20.6,
+  "d1_err": 1.1,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-06-26",
+  "direction": "highest",
+  "metar": 36.0,
+  "d1": 35.5,
+  "archive": 35.7,
+  "d1_err": 0.5,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-26",
+  "direction": "lowest",
+  "metar": 22.0,
+  "d1": 23.2,
+  "archive": 22.4,
+  "d1_err": 1.2,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-06-27",
+  "direction": "highest",
+  "metar": 31.0,
+  "d1": 33.0,
+  "archive": 31.3,
+  "d1_err": 2.0,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-27",
+  "direction": "lowest",
+  "metar": 21.0,
+  "d1": 22.5,
+  "archive": 22.0,
+  "d1_err": 1.5,
+  "archive_err": 1.0
+ },
+ {
+  "date": "2026-06-28",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 25.6,
+  "archive": 25.7,
+  "d1_err": 0.4,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-28",
+  "direction": "lowest",
+  "metar": 19.0,
+  "d1": 18.2,
+  "archive": 19.8,
+  "d1_err": 0.8,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-06-29",
+  "direction": "highest",
+  "metar": 25.0,
+  "d1": 24.2,
+  "archive": 24.1,
+  "d1_err": 0.8,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-06-29",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 15.6,
+  "archive": 15.2,
+  "d1_err": 0.6,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-06-30",
+  "direction": "highest",
+  "metar": 24.0,
+  "d1": 24.5,
+  "archive": 24.3,
+  "d1_err": 0.5,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-06-30",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 17.8,
+  "archive": 18.5,
+  "d1_err": 0.2,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-07-01",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 24.3,
+  "archive": 26.0,
+  "d1_err": 1.7,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-07-01",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 17.3,
+  "archive": 17.4,
+  "d1_err": 0.7,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-07-02",
+  "direction": "highest",
+  "metar": 25.0,
+  "d1": 25.0,
+  "archive": 26.0,
+  "d1_err": 0.0,
+  "archive_err": 1.0
+ },
+ {
+  "date": "2026-07-02",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 17.2,
+  "archive": 17.3,
+  "d1_err": 0.2,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-07-03",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 25.9,
+  "archive": 27.0,
+  "d1_err": 1.1,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-07-03",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 15.6,
+  "archive": 14.4,
+  "d1_err": 0.6,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-07-04",
+  "direction": "highest",
+  "metar": 29.0,
+  "d1": 26.1,
+  "archive": 28.2,
+  "d1_err": 2.9,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-07-04",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 16.4,
+  "archive": 16.7,
+  "d1_err": 0.6,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-07-05",
+  "direction": "highest",
+  "metar": 28.0,
+  "d1": 28.2,
+  "archive": 28.6,
+  "d1_err": 0.2,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-07-05",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 18.4,
+  "archive": 17.7,
+  "d1_err": 0.4,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-07-06",
+  "direction": "highest",
+  "metar": 32.0,
+  "d1": 32.7,
+  "archive": 31.8,
+  "d1_err": 0.7,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-07-06",
+  "direction": "lowest",
+  "metar": 19.0,
+  "d1": 19.6,
+  "archive": 19.0,
+  "d1_err": 0.6,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-07-07",
+  "direction": "highest",
+  "metar": 32.0,
+  "d1": 29.6,
+  "archive": 31.6,
+  "d1_err": 2.4,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-07-07",
+  "direction": "lowest",
+  "metar": 20.0,
+  "d1": 19.3,
+  "archive": 20.7,
+  "d1_err": 0.7,
+  "archive_err": 0.7
+ },
+ {
+  "date": "2026-07-09",
+  "direction": "highest",
+  "metar": 34.0,
+  "d1": 34.3,
+  "archive": 33.7,
+  "d1_err": 0.3,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-07-09",
+  "direction": "lowest",
+  "metar": 22.0,
+  "d1": 22.9,
+  "archive": 22.0,
+  "d1_err": 0.9,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-07-10",
+  "direction": "highest",
+  "metar": 29.0,
+  "d1": 30.1,
+  "archive": 28.5,
+  "d1_err": 1.1,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-07-10",
+  "direction": "lowest",
+  "metar": 21.0,
+  "d1": 20.5,
+  "archive": 21.1,
+  "d1_err": 0.5,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-11",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 28.2,
+  "archive": 28.5,
+  "d1_err": 1.2,
+  "archive_err": 1.5
+ },
+ {
+  "date": "2026-07-11",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 18.4,
+  "archive": 18.1,
+  "d1_err": 0.4,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-12",
+  "direction": "highest",
+  "metar": 28.0,
+  "d1": 28.9,
+  "archive": 29.0,
+  "d1_err": 0.9,
+  "archive_err": 1.0
+ },
+ {
+  "date": "2026-07-12",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 18.1,
+  "archive": 17.1,
+  "d1_err": 1.1,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-13",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 27.5,
+  "archive": 26.7,
+  "d1_err": 1.5,
+  "archive_err": 0.7
+ },
+ {
+  "date": "2026-07-13",
+  "direction": "lowest",
+  "metar": 16.0,
+  "d1": 16.0,
+  "archive": 15.9,
+  "d1_err": 0.0,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-14",
+  "direction": "highest",
+  "metar": 29.0,
+  "d1": 30.6,
+  "archive": 30.2,
+  "d1_err": 1.6,
+  "archive_err": 1.2
+ },
+ {
+  "date": "2026-07-14",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 17.3,
+  "archive": 17.0,
+  "d1_err": 0.3,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-07-15",
+  "direction": "highest",
+  "metar": 28.0,
+  "d1": 28.4,
+  "archive": 27.9,
+  "d1_err": 0.4,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-15",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 18.0,
+  "archive": 17.7,
+  "d1_err": 1.0,
+  "archive_err": 0.7
+ },
+ {
+  "date": "2026-07-16",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 28.4,
+  "archive": 27.8,
+  "d1_err": 1.4,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-07-16",
+  "direction": "lowest",
+  "metar": 16.0,
+  "d1": 17.0,
+  "archive": 16.6,
+  "d1_err": 1.0,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-07-17",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 27.8,
+  "archive": 28.9,
+  "d1_err": 0.8,
+  "archive_err": 1.9
+ },
+ {
+  "date": "2026-07-17",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 15.4,
+  "archive": 15.9,
+  "d1_err": 0.4,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-07-18",
+  "direction": "highest",
+  "metar": 21.0,
+  "d1": 24.1,
+  "archive": 22.2,
+  "d1_err": 3.1,
+  "archive_err": 1.2
+ },
+ {
+  "date": "2026-07-18",
+  "direction": "lowest",
+  "metar": 16.0,
+  "d1": 16.6,
+  "archive": 15.9,
+  "d1_err": 0.6,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-19",
+  "direction": "highest",
+  "metar": 21.0,
+  "d1": 23.0,
+  "archive": 22.2,
+  "d1_err": 2.0,
+  "archive_err": 1.2
+ },
+ {
+  "date": "2026-07-19",
+  "direction": "lowest",
+  "metar": 14.0,
+  "d1": 14.2,
+  "archive": 13.2,
+  "d1_err": 0.2,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-07-20",
+  "direction": "highest",
+  "metar": 25.0,
+  "d1": 22.2,
+  "archive": 25.3,
+  "d1_err": 2.8,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-07-20",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 14.0,
+  "archive": 12.9,
+  "d1_err": 1.0,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-21",
+  "direction": "highest",
+  "metar": 22.0,
+  "d1": 25.4,
+  "archive": 22.4,
+  "d1_err": 3.4,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-07-21",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 17.0,
+  "archive": 15.0,
+  "d1_err": 2.0,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-07-22",
+  "direction": "highest",
+  "metar": 25.0,
+  "d1": 28.1,
+  "archive": 25.8,
+  "d1_err": 3.1,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-07-22",
+  "direction": "lowest",
+  "metar": 16.0,
+  "d1": 17.4,
+  "archive": 16.2,
+  "d1_err": 1.4,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-07-23",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 25.4,
+  "archive": 26.4,
+  "d1_err": 0.6,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-07-23",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 18.7,
+  "archive": 17.6,
+  "d1_err": 1.7,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-07-24",
+  "direction": "highest",
+  "metar": 28.0,
+  "d1": 27.8,
+  "archive": 27.9,
+  "d1_err": 0.2,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-24",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 20.1,
+  "archive": 18.5,
+  "d1_err": 2.1,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-07-25",
+  "direction": "highest",
+  "metar": 29.0,
+  "d1": 29.0,
+  "archive": 28.6,
+  "d1_err": 0.0,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-07-25",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 18.5,
+  "archive": 17.4,
+  "d1_err": 1.5,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-07-26",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 25.4,
+  "archive": 26.1,
+  "d1_err": 1.6,
+  "archive_err": 0.9
+ },
+ {
+  "date": "2026-07-26",
+  "direction": "lowest",
+  "metar": 19.0,
+  "d1": 19.2,
+  "archive": 18.9,
+  "d1_err": 0.2,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-27",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 25.9,
+  "archive": 26.8,
+  "d1_err": 1.1,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-07-27",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 16.4,
+  "archive": 16.8,
+  "d1_err": 0.6,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-07-28",
+  "direction": "highest",
+  "metar": 29.0,
+  "d1": 28.4,
+  "archive": 29.3,
+  "d1_err": 0.6,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-07-28",
+  "direction": "lowest",
+  "metar": 19.0,
+  "d1": 19.0,
+  "archive": 19.4,
+  "d1_err": 0.0,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-07-29",
+  "direction": "highest",
+  "metar": 34.0,
+  "d1": 34.0,
+  "archive": 33.9,
+  "d1_err": 0.0,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-29",
+  "direction": "lowest",
+  "metar": 20.0,
+  "d1": 21.2,
+  "archive": 20.1,
+  "d1_err": 1.2,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-30",
+  "direction": "highest",
+  "metar": 28.0,
+  "d1": 27.7,
+  "archive": 28.1,
+  "d1_err": 0.3,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-07-30",
+  "direction": "lowest",
+  "metar": 20.0,
+  "d1": 19.8,
+  "archive": 20.0,
+  "d1_err": 0.2,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-07-31",
+  "direction": "highest",
+  "metar": 25.0,
+  "d1": 24.7,
+  "archive": 25.4,
+  "d1_err": 0.3,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-07-31",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 17.5,
+  "archive": 16.9,
+  "d1_err": 0.5,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-08-01",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 25.8,
+  "archive": 26.0,
+  "d1_err": 0.2,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-08-01",
+  "direction": "lowest",
+  "metar": 16.0,
+  "d1": 17.3,
+  "archive": 16.0,
+  "d1_err": 1.3,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-08-02",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 26.7,
+  "archive": 26.8,
+  "d1_err": 0.3,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-02",
+  "direction": "lowest",
+  "metar": 16.0,
+  "d1": 16.0,
+  "archive": 15.8,
+  "d1_err": 0.0,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-03",
+  "direction": "highest",
+  "metar": 29.0,
+  "d1": 30.8,
+  "archive": 29.7,
+  "d1_err": 1.8,
+  "archive_err": 0.7
+ },
+ {
+  "date": "2026-08-03",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 18.6,
+  "archive": 18.2,
+  "d1_err": 0.6,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-04",
+  "direction": "highest",
+  "metar": 30.0,
+  "d1": 28.7,
+  "archive": 29.8,
+  "d1_err": 1.3,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-04",
+  "direction": "lowest",
+  "metar": 19.0,
+  "d1": 19.6,
+  "archive": 19.2,
+  "d1_err": 0.6,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-05",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 24.4,
+  "archive": 24.9,
+  "d1_err": 1.6,
+  "archive_err": 1.1
+ },
+ {
+  "date": "2026-08-05",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 17.9,
+  "archive": 18.8,
+  "d1_err": 0.1,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-08-06",
+  "direction": "highest",
+  "metar": 23.0,
+  "d1": 21.8,
+  "archive": 22.6,
+  "d1_err": 1.2,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-08-06",
+  "direction": "lowest",
+  "metar": 15.0,
+  "d1": 15.1,
+  "archive": 15.0,
+  "d1_err": 0.1,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-08-07",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 23.8,
+  "archive": 25.5,
+  "d1_err": 2.2,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-08-07",
+  "direction": "lowest",
+  "metar": 14.0,
+  "d1": 15.4,
+  "archive": 13.7,
+  "d1_err": 1.4,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-08-08",
+  "direction": "highest",
+  "metar": 28.0,
+  "d1": 27.4,
+  "archive": 28.1,
+  "d1_err": 0.6,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-08-08",
+  "direction": "lowest",
+  "metar": 14.0,
+  "d1": 15.9,
+  "archive": 14.7,
+  "d1_err": 1.9,
+  "archive_err": 0.7
+ },
+ {
+  "date": "2026-08-09",
+  "direction": "highest",
+  "metar": 31.0,
+  "d1": 31.4,
+  "archive": 31.4,
+  "d1_err": 0.4,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-08-09",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 18.6,
+  "archive": 18.3,
+  "d1_err": 0.6,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-08-10",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 26.7,
+  "archive": 26.2,
+  "d1_err": 0.7,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-10",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 18.7,
+  "archive": 18.5,
+  "d1_err": 0.7,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-08-11",
+  "direction": "highest",
+  "metar": 24.0,
+  "d1": 24.7,
+  "archive": 24.4,
+  "d1_err": 0.7,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-08-11",
+  "direction": "lowest",
+  "metar": 16.0,
+  "d1": 17.3,
+  "archive": 16.2,
+  "d1_err": 1.3,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-12",
+  "direction": "highest",
+  "metar": 30.0,
+  "d1": 31.8,
+  "archive": 31.0,
+  "d1_err": 1.8,
+  "archive_err": 1.0
+ },
+ {
+  "date": "2026-08-12",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 18.1,
+  "archive": 17.4,
+  "d1_err": 0.1,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-08-13",
+  "direction": "highest",
+  "metar": 34.0,
+  "d1": 34.8,
+  "archive": 34.3,
+  "d1_err": 0.8,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-08-13",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 20.0,
+  "archive": 18.2,
+  "d1_err": 2.0,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-14",
+  "direction": "highest",
+  "metar": 34.0,
+  "d1": 32.2,
+  "archive": 33.9,
+  "d1_err": 1.8,
+  "archive_err": 0.1
+ },
+ {
+  "date": "2026-08-14",
+  "direction": "lowest",
+  "metar": 22.0,
+  "d1": 22.1,
+  "archive": 23.0,
+  "d1_err": 0.1,
+  "archive_err": 1.0
+ },
+ {
+  "date": "2026-08-15",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 25.8,
+  "archive": 26.8,
+  "d1_err": 0.2,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-08-15",
+  "direction": "lowest",
+  "metar": 20.0,
+  "d1": 19.5,
+  "archive": 20.2,
+  "d1_err": 0.5,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-16",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 26.6,
+  "archive": 26.6,
+  "d1_err": 0.6,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-08-16",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 17.7,
+  "archive": 17.2,
+  "d1_err": 0.3,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-08-17",
+  "direction": "highest",
+  "metar": 27.0,
+  "d1": 27.0,
+  "archive": 27.2,
+  "d1_err": 0.0,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-17",
+  "direction": "lowest",
+  "metar": 19.0,
+  "d1": 19.5,
+  "archive": 19.5,
+  "d1_err": 0.5,
+  "archive_err": 0.5
+ },
+ {
+  "date": "2026-08-18",
+  "direction": "highest",
+  "metar": 26.0,
+  "d1": 25.3,
+  "archive": 25.8,
+  "d1_err": 0.7,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-18",
+  "direction": "lowest",
+  "metar": 18.0,
+  "d1": 19.1,
+  "archive": 19.4,
+  "d1_err": 1.1,
+  "archive_err": 1.4
+ },
+ {
+  "date": "2026-08-19",
+  "direction": "highest",
+  "metar": 25.0,
+  "d1": 22.4,
+  "archive": 25.0,
+  "d1_err": 2.6,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-08-19",
+  "direction": "lowest",
+  "metar": 17.0,
+  "d1": 17.0,
+  "archive": 17.0,
+  "d1_err": 0.0,
+  "archive_err": 0.0
+ },
+ {
+  "date": "2026-08-20",
+  "direction": "highest",
+  "metar": 24.0,
+  "d1": 22.3,
+  "archive": 23.2,
+  "d1_err": 1.7,
+  "archive_err": 0.8
+ },
+ {
+  "date": "2026-08-20",
+  "direction": "lowest",
+  "metar": 16.0,
+  "d1": 16.4,
+  "archive": 16.2,
+  "d1_err": 0.4,
+  "archive_err": 0.2
+ },
+ {
+  "date": "2026-08-21",
+  "direction": "highest",
+  "metar": 21.0,
+  "d1": 20.6,
+  "archive": 21.4,
+  "d1_err": 0.4,
+  "archive_err": 0.4
+ },
+ {
+  "date": "2026-08-21",
+  "direction": "lowest",
+  "metar": 14.0,
+  "d1": 14.6,
+  "archive": 14.6,
+  "d1_err": 0.6,
+  "archive_err": 0.6
+ },
+ {
+  "date": "2026-08-22",
+  "direction": "highest",
+  "metar": 22.0,
+  "d1": 20.7,
+  "archive": 21.7,
+  "d1_err": 1.3,
+  "archive_err": 0.3
+ },
+ {
+  "date": "2026-08-22",
+  "direction": "lowest",
+  "metar": 13.0,
+  "d1": 12.4,
+  "archive": 12.5,
+  "d1_err": 0.6,
+  "archive_err": 0.5
+ }
+]

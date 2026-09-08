@@ -1,0 +1,12 @@
+[Unit]
+Description=London tape book recorder (one shot)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=london
+WorkingDirectory=/opt/london
+Type=oneshot
+ExecStart=/opt/london/.venv/bin/python3 /opt/london/book_recorder.py --once
+StandardOutput=append:/opt/london/london/book_recorder_server.log
+StandardError=append:/opt/london/london/book_recorder_server.log

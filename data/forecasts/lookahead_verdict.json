@@ -1,0 +1,36 @@
+{
+  "lookahead_proven": true,
+  "mechanism": "historical-forecast-api stiches each run first-hours => near-zero-lead nowcast, not D-1 forecast",
+  "coverage": "224 resolved events 2026-05-01..2026-08-22 (single-runs retains ~4-5 months)",
+  "mae": {
+    "archive_best_match_c": 0.46,
+    "genuine_d1_c": 0.96
+  },
+  "archive_closer_than_d1_frac": 0.7232142857142857,
+  "strategy_backtest_open_entry_10_50c": {
+    "archive_lookahead": {
+      "n": 146,
+      "win_rate": 0.603,
+      "pnl_per_dollar": 1.59
+    },
+    "genuine_d1": {
+      "n": 149,
+      "win_rate": 0.322,
+      "pnl_per_dollar": 0.31
+    },
+    "market_favorite": {
+      "n": 530,
+      "win_rate": 0.334,
+      "pnl_per_dollar": -0.09
+    }
+  },
+  "genuine_d1_bootstrap_95ci": [
+    -0.01,
+    0.67
+  ],
+  "genuine_d1_p_negative": 0.03,
+  "ukmo_run_cycles": [
+    "00:00 only (06/12/18Z not available)"
+  ],
+  "conclusion": "look-ahead inflated win rate from 32% to 60% and PnL from +0.31 to +1.59. Genuine D-1 edge is near-zero and not statistically significant."
+}

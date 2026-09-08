@@ -1,0 +1,17 @@
+[Unit]
+Description=London dawn watcher (paper dawn-lock taker, lowest market) - 24/7
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=london
+WorkingDirectory=/opt/london
+# the bot polls only inside 03:00-07:30Z and exits after; wrapper re-enters
+ExecStart=/bin/sh -c 'while true; do /opt/london/.venv/bin/python3 /opt/london/dawn_watcher.py --run; sleep 300; done'
+Restart=on-failure
+RestartSec=60
+StandardOutput=append:/opt/london/london/dawn_watch_server.log
+StandardError=append:/opt/london/london/dawn_watch_server.log
+
+[Install]
+WantedBy=multi-user.target
