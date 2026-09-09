@@ -106,6 +106,73 @@ who netted positive were a handful of market makers harvesting the spread, not
 forecasting anything. I closed that branch and stopped looking for reasons to
 reopen it.
 
+## What the bot actually does
+
+The market is simple: each day Polymarket lists a market for London's highest
+temperature and one for its lowest, each split into whole-degree buckets (12C,
+13C, 14C, and so on). You buy the bucket you think wins, and it pays out $1 if
+it does. Settlement is the daily minimum (or maximum) at London City Airport
+(EGLC), rounded to a whole degree, from the public METAR reports.
+
+The bot trades only the lowest side, and only inside a narrow window:
+
+```
+poll the EGLC METAR feed every 60 seconds, 03:00 to 07:30 UTC
+  1. classify the day from the D-1 forecast diurnal range:
+       radiation (range >= 8C)  -> trade the dawn-lock
+       advection (range < 8C)   -> stand down (winter) or use the warm-season leg
+  2. on a radiation day, the lowest temperature the station printed before
+     06:00 UTC is the call. It names the winning LOWEST bucket ~92% of the time.
+  3. if that bucket's ask is cheap enough (between 0.63 and 0.97, and at least
+     0.2C clear of a bucket edge), buy it. That is the whole trade.
+  4. a second, smaller leg at 03:00 UTC buys the bucket one degree below the
+     current leader, betting the minimum is still falling (~82% hit rate).
+```
+
+The veto stack is what turns a naive bet into the edge: the regime gate
+(radiation vs advection), a rain veto (wet dawns break the lock far more often),
+an edge skip (no calls within 0.2C of a bucket boundary), a price band (the
+tails are already priced correctly), and an independent settlement cross-check
+against Heathrow. On most days the bot does nothing. On the days it fires, it is
+not predicting weather. It is buying an outcome that has already happened.
+
+## Methodology: how this was actually achieved
+
+The numbers above come out of a specific pipeline, and the pipeline matters more
+than any single result.
+
+**Data.** Observations are METAR reports from aviationweather.gov (Iowa
+Mesonet archive), one row every ~20 minutes per station. Forecasts come from
+Open-Meteo's Single Runs API, which returns the ECMWF run exactly as it was
+published on a given day, no later revisions. Market data comes from Polymarket's
+public Gamma and CLOB APIs, and my own recorder writes an orderbook snapshot to
+a DuckDB tape every 15 minutes so the microstructure studies run on real books,
+not reconstructed ones.
+
+**The point-in-time rule.** Every forecast is stored as it looked on decision
+day. There is a script (`lookahead_check.py`) whose entire job is to verify a
+dataset is leak-free before any number is allowed near a result. The first
+strategy failed this test, which is why the repo leads with it.
+
+**Honest backtesting.** Entries are priced at the ask, not the all-trades
+average, because a buyer can only cross the ask; naive VWAP overstates the fill.
+Costs and capacity are real: the 03Z leg is capped at $50 because the book only
+holds ~$42 of depth, and the headline number moved a lot once the spread was
+charged honestly.
+
+**The regime classifier.** The one signal that survived is keyed on the D-1
+forecast diurnal range (day max minus day min). Above 8C the day is
+radiation-dominated and the minimum locks by dawn 92.4% of the time; below it
+the day is advection-dominated and the lock rate collapses. This single gate
+splits every day into tradeable and not, and it is what keeps the win rate high
+while the trade count stays honest.
+
+**Validation chain.** Nothing is quoted as edge until it has passed, in order: a
+backtest on point-in-time data, a bid/ask-corrected re-run, an out-of-sample
+walk-forward on a window the rules never saw, and finally a live paper bot
+logging real fill prices. The 18/18 is the corrected backtest. The 82% is the
+out-of-sample number. The paper bot is the thing still running.
+
 ## What the honest numbers actually are
 
 This is the part I most want to get right, because it's where people fool
