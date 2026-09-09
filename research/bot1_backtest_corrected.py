@@ -41,7 +41,7 @@ MIN_OBS = 16
 RAIN_TOKENS = ("RA", "DZ", "TS", "SH", "FZRA", "GR", "UP")
 
 D0 = date(2026, 4, 15)
-D1 = date(2026, 9, 3)
+D1 = date(2026, 9, 8)
 
 
 def code_is_rain(code):

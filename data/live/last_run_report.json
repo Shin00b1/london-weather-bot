@@ -1,88 +1,68 @@
 {
-  "run_at": "2026-09-04T07:44:13.845089+00:00",
-  "markets_added": 66,
+  "run_at": "2026-09-09T08:47:14.365345+00:00",
+  "markets_added": 22,
   "markets_updated": 88,
-  "events_added": 6,
+  "events_added": 2,
   "events_updated": 8,
-  "daily_updated": 4,
+  "daily_updated": 2,
   "resolved": [
     {
-      "event": "highest-temperature-in-london-on-august-31-2026",
-      "winning_bucket": "24\u00b0C",
-      "temp_c": 24.0
+      "event": "highest-temperature-in-london-on-september-7-2026",
+      "winning_bucket": "25\u00b0C",
+      "temp_c": 25.0
     },
     {
-      "event": "lowest-temperature-in-london-on-august-31-2026",
-      "winning_bucket": "15\u00b0C",
-      "temp_c": 15.0
+      "event": "lowest-temperature-in-london-on-september-7-2026",
+      "winning_bucket": "18\u00b0C",
+      "temp_c": 18.0
     },
     {
-      "event": "highest-temperature-in-london-on-september-1-2026",
-      "winning_bucket": "23\u00b0C",
-      "temp_c": 23.0
-    },
-    {
-      "event": "lowest-temperature-in-london-on-september-1-2026",
-      "winning_bucket": "14\u00b0C",
-      "temp_c": 14.0
-    },
-    {
-      "event": "highest-temperature-in-london-on-september-2-2026",
-      "winning_bucket": "21\u00b0C",
-      "temp_c": 21.0
-    },
-    {
-      "event": "lowest-temperature-in-london-on-september-2-2026",
-      "winning_bucket": "17\u00b0C",
-      "temp_c": 17.0
-    },
-    {
-      "event": "highest-temperature-in-london-on-september-3-2026",
-      "winning_bucket": "26\u00b0C",
-      "temp_c": 26.0
-    },
-    {
-      "event": "lowest-temperature-in-london-on-september-3-2026",
+      "event": "highest-temperature-in-london-on-september-8-2026",
       "winning_bucket": "19\u00b0C",
       "temp_c": 19.0
+    },
+    {
+      "event": "lowest-temperature-in-london-on-september-8-2026",
+      "winning_bucket": "14\u00b0C",
+      "temp_c": 14.0
     }
   ],
   "open_favorites": [
     {
-      "event": "highest-temperature-in-london-on-september-4-2026",
+      "event": "highest-temperature-in-london-on-september-9-2026",
+      "favorite": "20\u00b0C",
+      "prob": 0.495
+    },
+    {
+      "event": "lowest-temperature-in-london-on-september-9-2026",
+      "favorite": "12\u00b0C",
+      "prob": 0.985
+    },
+    {
+      "event": "highest-temperature-in-london-on-september-10-2026",
+      "favorite": "21\u00b0C",
+      "prob": 0.54
+    },
+    {
+      "event": "lowest-temperature-in-london-on-september-10-2026",
+      "favorite": "12\u00b0C",
+      "prob": 0.435
+    },
+    {
+      "event": "highest-temperature-in-london-on-september-11-2026",
       "favorite": "22\u00b0C",
-      "prob": 0.84
+      "prob": 0.4
     },
     {
-      "event": "lowest-temperature-in-london-on-september-4-2026",
-      "favorite": "16\u00b0C",
-      "prob": 0.365
-    },
-    {
-      "event": "highest-temperature-in-london-on-september-5-2026",
-      "favorite": "23\u00b0C",
-      "prob": 0.595
-    },
-    {
-      "event": "lowest-temperature-in-london-on-september-5-2026",
-      "favorite": "13\u00b0C",
-      "prob": 0.485
-    },
-    {
-      "event": "highest-temperature-in-london-on-september-6-2026",
-      "favorite": "26\u00b0C",
-      "prob": 0.42
-    },
-    {
-      "event": "lowest-temperature-in-london-on-september-6-2026",
+      "event": "lowest-temperature-in-london-on-september-11-2026",
       "favorite": "15\u00b0C",
-      "prob": 0.355
+      "prob": 0.415
     }
   ],
-  "trades_rows": 16298,
+  "trades_rows": 10359,
   "errors": [],
   "books_live": 66,
-  "tape_trades": 16298,
+  "tape_trades": 10359,
   "metar": "ok",
   "wind": "ok",
   "lowband": "ok",
