@@ -1,4 +1,4 @@
-# DigitalOcean deployment — London weather bots
+# DigitalOcean deployment - London weather bots
 
 Target: one small droplet running dawn_watcher (min-side taker), field_maker
 (max-side paper MM) and book_recorder 24/7. This kills the Mac-sleep problem:
@@ -7,10 +7,10 @@ the 03:00-07:30Z dawn window is finally always covered.
 ## 1. Create the droplet (console, ~5 min)
 
 - Image: Ubuntu 24.04 LTS
-- Plan: Basic Regular — 2 GB / 1 vCPU / 50 GB ($12/mo). 1 GB ($6/mo) works too;
+- Plan: Basic Regular, 2 GB / 1 vCPU / 50 GB ($12/mo). 1 GB ($6/mo) works too;
   upgrade later only if you see OOM.
 - Region: NYC1 or NYC3 (Polymarket CLOB + aviationweather + Iowa API are all
-  US-hosted — east coast is the low-latency choice; London adds nothing).
+  US-hosted, east coast is the low-latency choice; London adds nothing).
 - Auth: SSH key (generate locally if needed: `ssh-keygen -t ed25519`)
 - extras: enable weekly backups (+20%) if you want; otherwise snapshots manually.
 
@@ -30,7 +30,7 @@ rsync -av --rsync-path="mkdir -p /opt/london/deploy && rsync" \
 ```
 
 This copies the state dir (tape.duckdb ~240 MB, jsonl logs, .env) plus just the
-five scripts the bots need. .env holds FALCON_API_TOKEN — it is chmod 600 by
+five scripts the bots need. .env holds FALCON_API_TOKEN, it is chmod 600 by
 bootstrap; never commit or paste it.
 
 ## 3. Bootstrap (on the droplet)
@@ -49,7 +49,7 @@ journalctl -u london-fieldmaker -f        # live logs
 tail -f /opt/london/london/field_maker.log
 ```
 
-Server is UTC by default — all bot windows (03-07:30Z, 06-20Z) line up as-is.
+Server is UTC by default, all bot windows (03-07:30Z, 06-20Z) line up as-is.
 
 ## 4. What moves vs what stays
 
@@ -74,7 +74,7 @@ STAYS on the Mac: the ZCode automations (sheet updates, morning 10:30, night
 - Fetch results back for research when you want:
   `rsync -av root@DROPLET_IP:/opt/london/london/*.jsonl ./london/server_logs/`
 - Optional free heartbeat: create a monitor on healthchecks.io and add
-  `curl -fsS https://hc-ping.com/<uuid> ` to each wrapper line — emails you if
+  `curl -fsS https://hc-ping.com/<uuid> ` to each wrapper line, emails you if
   a bot stops heartbeating.
 - Going LIVE later: order-signing needs a wallet key on the server. Use a
   fresh dedicated wallet, key in .env chmod 600, fund it small. Never reuse
